@@ -711,3 +711,41 @@ footer{
   font-weight: 700;
   line-height: 140%; /* 56px */
 }
+
+
+
+/* .class-name:hover
+  .class-name:active
+  .class-name:focus
+  .class-name:link
+  .class-name:visited
+  .class-name:not
+  .class-name:first-child()
+  .class-name:last-child()
+  .class-name:nth-child()
+ */
+
+ /* .wrapper__text:hover{
+    font-size: 20px
+ } 
+ */
+
+ input:focus{
+  background: green;
+ }
+ a:visited{
+  color: chocolate;
+ }
+
+ p:nth-child(4){
+  color: red;
+ }
+ p:first-child{
+  font-size: 20px;
+  color: blue;
+ }
+
+ p:last-child{
+  color: purple;
+ }
+
